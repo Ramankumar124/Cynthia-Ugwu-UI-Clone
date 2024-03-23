@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family:"General Sans";
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: black;
+   
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  position: relative;
+}
+#nav{
+    display: flex;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+#nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    line-height: 1;
+    margin-left: 30px;
+    opacity: .6;
+    text-transform: uppercase;
+    /* font-family: "General Sans Medium"; */
+    font-size: 10vw;
+    font-weight: 900;
+
+}
+
+#heading2{
+    width: fit-content;
+    margin-left:12vw;
+}
+#heading2 h5{
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: right;
+}
+#chhoteheadings{
+
+  
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: end;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+#chhoteheadings p{
+    font-size:1vw;
+    margin-top: .5vw;
+    font-weight: 500;
+}
+
+#herofooter{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 2vw ;
+    
+}
+#herofooter a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+.iconset i{
+    color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50% ;
+    background-color:grey;
+}
+#second{
+    width: 100%;
+    padding-top: 200px;
+    height: 130vh;
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+ 
+}
+.elem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: 3.5vw; */
+    border-top: 1px solid white;
+   padding: 3.5vw 3vw;
+   padding-right: 0;
+   position: relative;
+    
+}
+.elem h1{
+    font-size: 7.6vw;
+    opacity: .7;
+}
+.elem h6{
+    font-size: 15px;
+}
+#hudu{
+    border-bottom: 1px solid white;
+}
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+#about{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10vw 5vw;
+    padding-left: 30vw;
+    padding-right: 12vw;
+    font-size: 20px;
+}
+
+#about img{
+    height: 250px;
+}
+#about a{
+    position: relative;
+   top: 10px;
+   padding: 8px 10px;
+    color: white;
+    border:1px solid white;
+    border-radius: 100px;
+    text-decoration: none;
+
+}
+
+#subscribe{
+    color: white;
+      background-color: black;      
+      padding: 20px 30px;
+      text-transform: uppercase;
+      line-height: 1.7;
+      padding-bottom: 200px;
+}
+#subscribe h3{
+    opacity: .7;
+    font-size: 15px;
+}
+#footer{
+    color: white;
+    background-color: black;
+    padding: 20px 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#footer-left{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+#footer-right{
+    display: flex;
+    gap: 45px;
+    font-size: 15px;
+
+}
+#footer-right a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#mini-circle{
+ position: absolute;
+ height: 10px;
+ width: 10px;
+ background-color: white;
+ border-radius: 50%;
+ z-index: 444;
+ transition:  all .6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+ .bounding{
+    overflow: hidden;
+  
+ 
+     width: fit-content;
+    
+}
+
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+} 
+
+#end{
+    position: absolute;
+    margin-top: 50px;
+    right: 10%;
+}
